@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./Components/Header"
 import Task from "./Components/Task"
 import "./styles.css"
-import Reset from "./Components/Reset"
+
 
 export default function App() {
 
@@ -10,7 +10,7 @@ export default function App() {
         <div className="app">
             <Header />
             <Task />
-            <Reset />
+           
         </div>
     )
 }

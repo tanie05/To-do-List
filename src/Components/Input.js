@@ -19,8 +19,8 @@ export default function Input(prop) {
     return (
         <div className="input-form">
             <input type = "text" placeholder="Enter the task" className="input-box" onChange = {handleChange} value = {taskVal} />
-            <button className="input-button" onClick = {handleSubmit} >Add</button>
-            
+            <button className="btn input-btn"  onClick = {handleSubmit} >Add</button>
+            <Reset/>
             
         </div>
     )

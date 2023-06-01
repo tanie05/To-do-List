@@ -4,6 +4,8 @@
 }
 .app{
   text-align: center;
+  margin-top: 100px;
+  
 }
 body{
   background-color: #fafafa;
@@ -16,20 +18,20 @@ body{
 
 }
 .input-box{
-  width: 350px;
+  width: 330px;
   height: 35px;
   padding: 5px;
   font-size: larger;
-  margin: 5px;
+  margin: 16px;
   color: #407088;
   border: #132743 2px solid;
   border-radius: 5px;
   text-align: left;
+  margin-bottom: 0;
 }
 .input-button{
 
   width: 80px;
-  height: 35px;
   margin-left: 5px;
   background-color: #407088;
   color:#fafafa;
@@ -38,6 +40,8 @@ body{
   font-size: large;
   padding: 5px;
   cursor: pointer;
+  
+  
 
 }
 .list-item{
@@ -55,7 +59,7 @@ body{
   
 }
 
-.delete-btn{
+.btn{
 
   width: 90px;
   background-color: #407088;
@@ -97,6 +101,8 @@ body{
 
 }
 
-.hideReset{
-  display: none;
+.input-form{
+  display: flex;
+  justify-content: center;
+
 }

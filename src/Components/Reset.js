@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Reset = () => {
+const  Reset = () => {
 
-  
+
   function reset() {
+    
     localStorage.clear()
     window.location.reload(false);
     
@@ -12,9 +13,9 @@ const Reset = () => {
 
   return (
     <div>
-      <button className= 'input-button' onClick={reset}>Reset</button>
+      <button className= "btn" onClick={reset}>Reset</button>
     </div>
   )
 }
+export default Reset;
 
-export default Reset
